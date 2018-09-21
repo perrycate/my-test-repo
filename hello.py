@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-def say_hello():
-    print("hello, world!")
+
+# Says hello to the given subject
+def say_hello(subject = "World"):
+    print("hello, {}!".format(subject))
 
 say_hello()
+say_hello("ACM")
