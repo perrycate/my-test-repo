@@ -2,7 +2,7 @@
 
 # Says hello to the given subject
 def say_hello(subject = "World"):
-    print("hello, {}!".format(subject))
+    print("Goodbye, {}!".format(subject))
 
 say_hello()
 say_hello("ACM")
